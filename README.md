@@ -10,6 +10,10 @@ Execute add-to-path
 
 `./add-to-path.sh`
 
+All the scripts are now accesible everywhere on your system
+
 ## Scripts
 
-Utils bashs scripts that I want to use usually
+Utils bash scripts that I want to use usually
+
+- take-it: Ammend a PR commit with all the current changes and force
