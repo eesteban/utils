@@ -23,5 +23,17 @@ if [ -z "$CHANGES" ]; then
   exit 3
 fi
 
-git add -A && git commit --amend --no-edit && git push -f origin HEAD
+LATEST_COMMIT_WITH_MASTER=$(git merge-base HEAD master)
+LATEST_COMMIT=$(git rev-parse HEAD)
+
+git add -A
+
+if [ "$LATEST_COMMIT" != "$LATEST_COMMIT_WITH_MASTER"  ]; then
+  git commit --amend --no-edit
+else
+  echo "There isn't a commit already on this branch"
+  git commit
+fi
+
+git push -f origin HEAD
 echo "I Know What You Did Last Summer !!!"
