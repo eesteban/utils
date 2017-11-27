@@ -17,3 +17,4 @@ All the scripts are now accesible everywhere on your system
 Utils bash scripts that I want to use usually
 
 - take-it: Ammend a PR commit with all the current changes and force
+- link-it: Create a link to the given fullpath
