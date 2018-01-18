@@ -19,3 +19,5 @@ Utils bash scripts that I want to use usually
 - take-it: Ammend a PR commit with all the current changes and force
 - link-it: Create a link to the given fullpath
 - fix-assets: Fix the assets on the given path
+- kube-redeploy: Redeploy a kube
+- kube-rdp-git: Redeploy all updated kubes
