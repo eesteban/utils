@@ -12,6 +12,12 @@ Execute add-to-path
 
 All the scripts are now accesible everywhere on your system
 
+## Setup
+
+System configuration scripts
+
+- setup-git: Link git config to local .gitconfig
+
 ## Scripts
 
 Utils bash scripts that I want to use usually
@@ -21,3 +27,8 @@ Utils bash scripts that I want to use usually
 - fix-assets: Fix the assets on the given path
 - kube-redeploy: Redeploy a kube
 - kube-rdp-git: Redeploy all updated kubes
+- wport: Tells you the process on the given port
+
+## Commands to store
+
+delete empty directories in current path `find . -empty -type d -delete`
