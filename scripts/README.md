@@ -31,3 +31,7 @@ It will execute `kubectl create ...` and `kubectl delete ...` for the given file
 When you need to redeploy a kube `kube-rdp-git [kube_namespace]`
 
 It will execute `kube-redeploy` for all the files that differ from origin on the current repo folder
+
+## Who is in port
+
+When you need to check the process on a given port `wport [port]`
