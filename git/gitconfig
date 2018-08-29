@@ -14,6 +14,9 @@
 	puf = push -f
 	cm = commit -m
 	ame = commit --amend --no-edit
+	back = !git co -b
+	gd = !diff -- ':!package-lock.json' ':!yarn.lock'
+	re = !sh -c \"git rebase -i HEAD~$1\"
 [push]
 	default = simple
 [core]
